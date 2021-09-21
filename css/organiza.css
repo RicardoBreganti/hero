@@ -1,0 +1,73 @@
+main, body {
+    /* background-color: black; */
+    
+    /* background-image: linear-gradient( to right, red, green, yellow, blue ); */
+
+    /* background-image: linear-gradient(to bottom, darkgreen, blue, blueviolet); */
+    background-image: linear-gradient(to right, rgb(41, 41, 83) 10%, blue 25%, blueviolet);
+
+    /* background-image: linear-gradient(to right,darkgray, yellow, blue); */
+}
+
+section.container div.Criar {
+
+    width:200px;
+    height:250px;
+    text-align: center;
+    position: relative;
+    margin-top: 20em;
+    margin-left: 40em;
+    background-image: linear-gradient(orange, gray, red);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.container div.Editar {
+
+    width:200px;
+    height:290px;
+    text-align: center;
+    position: relative;
+    margin-top: 20em;
+    margin-left: 40em;
+    background-image: linear-gradient(orange, gray, red);
+    /* background-image: linear-gradient(darkgray 10%, yellow, Darkblue); */
+    /* background-image: linear-gradient(darkgray 10%, yellow, blue); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.container div.Deletar {
+
+    width:200px;
+    height:200px;
+    text-align: center;
+    position: relative;
+    margin-top: 20em;
+    margin-left: 40em;
+    background-image: linear-gradient(orange, gray, red);
+    /* background-image: repeating-linear-gradient(rgb(15, 231, 231), rgb(19, 77, 5), rgb(99, 99, 8) ); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.container div.index ul li{
+
+    /* text-align: center;
+    width: 100%;
+    position: relative; */
+
+    width:200px;
+    height:130px;
+    text-align: center;
+    position: relative;
+    margin-left: 40em;
+    background-image: repeating-linear-gradient(gray , red, yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
